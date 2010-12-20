@@ -1,0 +1,20 @@
+Collection of shell scripts to automate few manual and common tasks.
+
+build-jail-base.sh 
+ Builds FreeBSD base in /jails/base 
+ do make buildworld before !
+
+build-package.sh 
+ builds package from port, 
+ ensuring enviromental variables 
+ and making config before building (to allowed uninterrupted coffeine intake while pkgs are building)
+
+fixit-sshd.sh 
+ runs sshd in fixit enviroment to avoid using more confortable work enviroments etc ... 
+
+zfs-gpt-install.sh 
+ install freebsd with GPT partition and zfs only disks.
+ installs only base system, do after-install config with sysinstall :)
+
+
+
