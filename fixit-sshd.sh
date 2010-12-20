@@ -1,4 +1,5 @@
 #!/bin/sh
+# run sshd on fixit 
 echo "Enter network device"
 read $device
 mkdir /var/db
