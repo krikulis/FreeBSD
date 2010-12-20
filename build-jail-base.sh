@@ -5,8 +5,8 @@
 zfs create zroot/jails
 zfs create zroot/jails/base
 zfs set mountpoint=/jails/base zroot/jails/base
-setenv DEST=/jails/base
+DEST=/jails/base
 cd /usr/src
 make installworld=DESTDIR=$DEST
-make distribution DESTDIR=$D
+make distribution DESTDIR=$DEST
 
